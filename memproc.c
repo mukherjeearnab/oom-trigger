@@ -5,7 +5,7 @@
 
 int main() {
     // Calculate the size in bytes for 20 MB
-    size_t size = 20 * 1024 * 1024; // 20 MB = 20 * 1024 * 1024 bytes
+    size_t size = 2 * 1024 * 1024; // 20 MB = 20 * 1024 * 1024 bytes
 
     // Allocate memory
     char *array = (char *)malloc(size);
