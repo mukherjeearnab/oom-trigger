@@ -6,7 +6,7 @@ counter=0
 
 while :; do
     # run an instance of memproc in the background
-    ./memproc &
+    ./memproc.out &
 
     # sleep for some time
     # sleep 0.01
