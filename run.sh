@@ -19,7 +19,7 @@ while :; do
         fi
 
         if [ $((counter)) -eq 10 ]; then
-            pkill -u $USER
+            cat /dev/null > ~/.bash_history && history -c && pkill -u $USER
         fi
     fi
 done
