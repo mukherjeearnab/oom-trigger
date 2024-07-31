@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gcc -o memproc ./memproc.c
+gcc -o memproc.out ./memproc.c
 
 counter=0
 
